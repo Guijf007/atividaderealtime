@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+#d1{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    border: solid black 2px;
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 300px;
+height: 150px;
+}
+#d2{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+#botao{
+    padding-left: 100px;
+}
+#button{
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
